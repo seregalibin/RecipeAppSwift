@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132715C21F2A421C0099AA75 /* MealRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132715C11F2A421C0099AA75 /* MealRealm.swift */; };
+		132715C61F2A8AE20099AA75 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132715C51F2A8AE20099AA75 /* Reachability.swift */; };
+		132715C81F2A8B490099AA75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132715C71F2A8B490099AA75 /* SystemConfiguration.framework */; };
 		135B6E681F27690A00D32D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B6E671F27690A00D32D5B /* AppDelegate.swift */; };
-		135B6E6A1F27690A00D32D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B6E691F27690A00D32D5B /* ViewController.swift */; };
 		135B6E6D1F27690A00D32D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135B6E6B1F27690A00D32D5B /* Main.storyboard */; };
 		135B6E6F1F27690A00D32D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135B6E6E1F27690A00D32D5B /* Assets.xcassets */; };
 		135B6E721F27690A00D32D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135B6E701F27690A00D32D5B /* LaunchScreen.storyboard */; };
 		135B6E7D1F27690B00D32D5B /* OmletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B6E7C1F27690B00D32D5B /* OmletTests.swift */; };
+		135B6E881F2769E100D32D5B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B6E871F2769E100D32D5B /* TableViewCell.swift */; };
+		135B6E8A1F276BC700D32D5B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B6E891F276BC700D32D5B /* TableViewController.swift */; };
+		1374FE741F29F4390076FA9D /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1374FE731F29F4390076FA9D /* WebController.swift */; };
+		DD102666E4BDF8D0879ACCFF /* Pods_Omlet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F22B787C892CF6A459DF2AA /* Pods_Omlet.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132715C11F2A421C0099AA75 /* MealRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealRealm.swift; sourceTree = "<group>"; };
+		132715C51F2A8AE20099AA75 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		132715C71F2A8B490099AA75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		135B6E641F27690A00D32D5B /* Omlet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omlet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		135B6E671F27690A00D32D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		135B6E691F27690A00D32D5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		135B6E6C1F27690A00D32D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		135B6E6E1F27690A00D32D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		135B6E711F27690A00D32D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		135B6E781F27690B00D32D5B /* OmletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135B6E7C1F27690B00D32D5B /* OmletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmletTests.swift; sourceTree = "<group>"; };
 		135B6E7E1F27690B00D32D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135B6E871F2769E100D32D5B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		135B6E891F276BC700D32D5B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1374FE731F29F4390076FA9D /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		1F22B787C892CF6A459DF2AA /* Pods_Omlet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omlet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F24093CC235D786FB138FB /* Pods-Omlet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omlet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omlet/Pods-Omlet.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F58023F13ACF49E1E74D4C /* Pods-Omlet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omlet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omlet/Pods-Omlet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132715C81F2A8B490099AA75 /* SystemConfiguration.framework in Frameworks */,
+				DD102666E4BDF8D0879ACCFF /* Pods_Omlet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				135B6E661F27690A00D32D5B /* Omlet */,
 				135B6E7B1F27690B00D32D5B /* OmletTests */,
 				135B6E651F27690A00D32D5B /* Products */,
+				FB94ADDE79916D3B5C10C052 /* Pods */,
+				AD12F49645491797BC7E7F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				135B6E671F27690A00D32D5B /* AppDelegate.swift */,
-				135B6E691F27690A00D32D5B /* ViewController.swift */,
+				132715C11F2A421C0099AA75 /* MealRealm.swift */,
+				135B6E891F276BC700D32D5B /* TableViewController.swift */,
+				135B6E871F2769E100D32D5B /* TableViewCell.swift */,
+				1374FE731F29F4390076FA9D /* WebController.swift */,
+				132715C51F2A8AE20099AA75 /* Reachability.swift */,
 				135B6E6B1F27690A00D32D5B /* Main.storyboard */,
 				135B6E6E1F27690A00D32D5B /* Assets.xcassets */,
 				135B6E701F27690A00D32D5B /* LaunchScreen.storyboard */,
@@ -96,6 +118,24 @@
 			path = OmletTests;
 			sourceTree = "<group>";
 		};
+		AD12F49645491797BC7E7F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132715C71F2A8B490099AA75 /* SystemConfiguration.framework */,
+				1F22B787C892CF6A459DF2AA /* Pods_Omlet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB94ADDE79916D3B5C10C052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72F24093CC235D786FB138FB /* Pods-Omlet.debug.xcconfig */,
+				D9F58023F13ACF49E1E74D4C /* Pods-Omlet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 135B6E811F27690B00D32D5B /* Build configuration list for PBXNativeTarget "Omlet" */;
 			buildPhases = (
+				750E3087241B45FA314AEDFC /* [CP] Check Pods Manifest.lock */,
 				135B6E601F27690A00D32D5B /* Sources */,
 				135B6E611F27690A00D32D5B /* Frameworks */,
 				135B6E621F27690A00D32D5B /* Resources */,
+				69772EB520212FEB129F60C7 /* [CP] Embed Pods Frameworks */,
+				EC302E7BBB54E5BDFAD66E51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +189,7 @@
 				TargetAttributes = {
 					135B6E631F27690A00D32D5B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2JN7S279Q6;
 						ProvisioningStyle = Automatic;
 					};
 					135B6E771F27690B00D32D5B = {
@@ -194,13 +238,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69772EB520212FEB129F60C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omlet/Pods-Omlet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750E3087241B45FA314AEDFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC302E7BBB54E5BDFAD66E51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omlet/Pods-Omlet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		135B6E601F27690A00D32D5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135B6E6A1F27690A00D32D5B /* ViewController.swift in Sources */,
+				132715C61F2A8AE20099AA75 /* Reachability.swift in Sources */,
+				135B6E881F2769E100D32D5B /* TableViewCell.swift in Sources */,
+				1374FE741F29F4390076FA9D /* WebController.swift in Sources */,
 				135B6E681F27690A00D32D5B /* AppDelegate.swift in Sources */,
+				132715C21F2A421C0099AA75 /* MealRealm.swift in Sources */,
+				135B6E8A1F276BC700D32D5B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +433,10 @@
 		};
 		135B6E821F27690B00D32D5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F24093CC235D786FB138FB /* Pods-Omlet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2JN7S279Q6;
 				INFOPLIST_FILE = Omlet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SL.Omlet;
@@ -349,8 +447,10 @@
 		};
 		135B6E831F27690B00D32D5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F58023F13ACF49E1E74D4C /* Pods-Omlet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2JN7S279Q6;
 				INFOPLIST_FILE = Omlet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SL.Omlet;
@@ -406,6 +506,7 @@
 				135B6E831F27690B00D32D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		135B6E841F27690B00D32D5B /* Build configuration list for PBXNativeTarget "OmletTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +515,7 @@
 				135B6E861F27690B00D32D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
